@@ -1,9 +1,4 @@
-# Building Currency Converter in Python
-
-## Author
-Name: Nayna Jahan Neha
-
-Student ID: 25238736
+# Building a Currency Converter in Python
 
 ## Description
 This Python project, which uses the **Streamlit** framework, is a web-based **Currency Converter App**. The application uses real-time exchange rates retrieved from the [Frankfurter](https://www.frankfurter.app/) API to enable users to convert between two chosen currencies. The **latest conversion rate** or the rate for a particular day in the past can be obtained by users when they choose two currencies and enter the amount they wish to convert. Additionally, the **inverse conversion rate** for the selected currencies is provided by the program. The webapp  displays a validation error if the user selects any future date. If the same currency is chosen in both the input fields of conversion, another validation message is displayed. In the event that the input rate is not equal to zero, the program will determine the inverse rate and round it to four decimal places. Hence, the application allows the users to:
